@@ -14,9 +14,9 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="products"
+        name="cart"
         options={{
-          title: "Products",
+          title: "Cart",
           tabBarIcon: ({ color }) => (
             <AntDesign name="product" size={22} color={color} />
           ),
