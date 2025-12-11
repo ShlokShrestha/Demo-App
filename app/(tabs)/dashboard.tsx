@@ -11,6 +11,7 @@ import {
   RefreshControl,
   ActivityIndicator,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Dashboard = () => {
   const router = useRouter();
@@ -43,7 +44,7 @@ const Dashboard = () => {
     );
   }
   return (
-    <View style={{ flex: 1 }}>
+    <SafeAreaView>
       <View
         style={{
           alignItems: "center",
@@ -88,7 +89,7 @@ const Dashboard = () => {
           </View>
         )}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 

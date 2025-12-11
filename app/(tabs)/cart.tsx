@@ -1,12 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-type Props = {};
-
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 24, fontWeight: "bold" }}>Cart Screen</Text>
+    <View className="flex-1 justify-center items-center">
+      <Text className="text-3xl font-bold">Cart Screen</Text>
     </View>
   );
 };
