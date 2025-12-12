@@ -13,3 +13,14 @@ export type Product = {
 export type ProductsResponse = {
   products: Product[];
 };
+
+export type User = {
+  id: string | number;
+  firstName: string;
+  lastName: string;
+  age: number;
+  email: string;
+};
+export type UserResponse = {
+  users: User[] ;
+};
